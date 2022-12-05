@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(209, 214, 218);
+}
+
+.header {
+  background-color: black;
+  height: 10vh;
+}
+
+.logo {
+  width: 40px;
+}
