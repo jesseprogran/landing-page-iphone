@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
 }
 
 body {
@@ -9,10 +12,47 @@ body {
 }
 
 .header {
-  background-color: black;
-  height: 10vh;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  width: 1005;
+  padding: 20px 50px;
 }
 
 .logo {
-  width: 40px;
+  width: 45px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav, ul {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+li a {
+  color: rgb(255, 255, 255);
+}
+
+li a:hover {
+  background: black;
+  padding: .8rem;
+  border-radius: 10px;
+}
+
+button {
+  padding: .8rem;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+button:hover {
+  background: black;
+  color: white;
 }
