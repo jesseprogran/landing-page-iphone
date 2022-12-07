@@ -68,29 +68,78 @@ button:hover {
 }
 
 .main-texto {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: space-between;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 5rem;
   background-image: linear-gradient(#414a8a, #8406d6);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 
-.main-texto p {
-  font-size: 20px;
-  font-weight: 800;
-  color: rgb(70, 62, 62);
+h6 {
+  color: rgb(99, 99, 98);
+  font-size: 2rem;
+  margin-top: 1rem;
 }
 
-.main-img {
+.btn {
+  margin-top: 15px;
+  padding: 10px 2px;
+  background: radial-gradient(circle, rgb(174, 122, 145) 0%, rgb(76, 108, 144) 100%);
+  width: 68px;
+  color: white;
+  font-size: 16px;
+  border-radius: 17px;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+}
+.texto h5 {
+  font-size: 1rem;
+  color: rgb(83, 91, 88);
+  margin-top: 1.5rem;
+}
+.contente {
+  margin-top: 10px;
   display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contente span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px rgb(75, 71, 71);
+  transition: all 0.6s;
+}
+
+.contente span:hover {
+  opacity: .80;
+}
+
+#branco {
+  background: #fcfcff;
+}
+#preto {
+  background: rgb(1, 1, 1);
+}
+#azul {
+  background: rgb(7, 4, 100);
+}
+.main-img {
+  transition: all 1s ease;
+  z-index: 100;
 }
 
 .main-img, img {
-  width: 640px;
+  width: 470px;
+  transform: rotate(-5deg);
 }
