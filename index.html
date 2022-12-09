@@ -5,31 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>iPhone</title>
-  <link rel="shortcut icon" href="./icons/social_apple_mac_25.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./icons/logo-nav.png" type="image/x-icon">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <div class="header">
     <div class="nav">
       <img class="logo" src="./images/logo-nav.png">
-
       <ul>
         <li>
           <a href="#">Mac</a>
         </li>
-
         <li>
           <a href="#">iPad</a>
         </li>
-
         <li>
           <a href="#">iPhone</a>
         </li>
-
         <li>
           <a href="#">AirPods</a>
         </li>
-
        <button>SUPORTE</button>
       </ul>
     </div>
@@ -37,29 +32,22 @@
   <div class="main">
       <div class="main-texto">
         <h1>iPhone. <br> Agora <br> com tela <br> de montar.</h1>
-
         <h6>Apartir de R$ 6.599 </h6>
         <a href="#" class="btn">Comprar</a>
-
         <div class="texto">
           <h5>Escolha sua cor favorita</h5>
         </div>
-
         <div class="contente">
-          <span id="branco"></span>
-          <span id="preto"></span>
-          <span id="azul"></span>
-
+          <span id="branco" onclick="imagePhone('./images/branco.png')"></span>
+          <span id="preto" onclick="imagePhone('./images/Preto2.png')"></span>
+          <span id="azul" onclick="imagePhone('./images/azul.jpg')"></span>
         </div>
       </div>
-
       <div class="main-img">
-        <img src="./images/branco.png" alt="iphone">
+        <img src="./images/branco.png" alt="imagem de iphone" id="iphone">
       </div>
   </div>
   
-
-
   <script src="./js/script.js"></script>
 </body>
 </html>
