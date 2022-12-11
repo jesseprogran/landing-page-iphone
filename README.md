@@ -37,7 +37,7 @@ interativa.
 <br>
 <br>
 Projeto foi desafiador, estou começando agora o estudo
-do java script e então apliquei no projeto o conhecimento adquido.
+do java script e então apliquei no projeto o conhecimento adquirido.
 
 -------
 
